@@ -236,7 +236,7 @@ public class Shop : MonoBehaviour
                 points = points - 2000;
                 PlayerPrefs.SetInt("Points", points);
                 scoreText.text = "Points: " + points.ToString();
-                skinNineText.text = "Void";
+                skinNineText.text = "Pride";
                 skinNine = true;
                 PlayerPrefs.SetInt("SkinPicked", 9);
             }
@@ -568,7 +568,7 @@ public class Shop : MonoBehaviour
         if (PlayerPrefs.GetInt("09_skin") == 1)
         {
             skinNine = true;
-            skinNineText.text = "Gay";
+            skinNineText.text = "Pride";
         }
         if (PlayerPrefs.GetInt("10_skin") == 1)
         {
