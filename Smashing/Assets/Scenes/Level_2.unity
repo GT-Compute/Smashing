@@ -3267,6 +3267,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   explodeEffect: {fileID: 4489687293655031234, guid: 70b4e1d9909d4a9488b2b3030268aa5e,
     type: 3}
+  soundEffect: {fileID: 8798018668222788955, guid: 32688ecaef78a014a94d6bc72d2bc3d7,
+    type: 3}
 --- !u!135 &1533536931
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -3663,6 +3665,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   explodeEffect: {fileID: 4489687293655031234, guid: 70b4e1d9909d4a9488b2b3030268aa5e,
+    type: 3}
+  soundEffect: {fileID: 8798018668222788955, guid: 32688ecaef78a014a94d6bc72d2bc3d7,
     type: 3}
 --- !u!135 &1744858569
 SphereCollider:
@@ -4342,6 +4346,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   explodeEffect: {fileID: 4489687293655031234, guid: 70b4e1d9909d4a9488b2b3030268aa5e,
+    type: 3}
+  soundEffect: {fileID: 8798018668222788955, guid: 32688ecaef78a014a94d6bc72d2bc3d7,
     type: 3}
 --- !u!1001 &2119296002
 PrefabInstance:
