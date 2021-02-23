@@ -11,6 +11,7 @@ public class MenuScript : MonoBehaviour
         PlayerPrefs.SetInt("Levels", 0);
         PlayerPrefs.SetInt("Lives", 3);
         SceneManager.LoadScene("Level_1");
+        Time.timeScale = 1;
 
     }
 
