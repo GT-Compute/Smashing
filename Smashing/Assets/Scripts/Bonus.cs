@@ -15,6 +15,7 @@ public class Bonus : MonoBehaviour
         GameObject effect = Instantiate(explodeEffect, gameObject.transform.position, gameObject.transform.rotation);
         Destroy(effect, 5f);
         GameObject sound = Instantiate(soundEffect, gameObject.transform.position, gameObject.transform.rotation);
+        sound.GetComponent<AudioSource>().volume = PlayerPrefs.GetFloat("Sound", 1);
         Destroy(sound, 5f);
         Destroy(this.gameObject);
         this.gameObject.SetActive(false);
